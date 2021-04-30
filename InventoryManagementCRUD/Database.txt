@@ -1,0 +1,45 @@
+use  Footwear; //name of the database
+db.createCollection('footwear') // new collection named footwear
+//Now we can Proceed with CRUD operations on this database and this collection
+//Initial Database 
+db.footwear.find().pretty()
+{
+        "_id" : ObjectId("608bb5b4b0d6d38850066b8a"),
+        "pid" : "111",
+        "Brand" : "Bata",
+        "category" : "Formal Shoes",
+        "size" : "9",
+        "stock" : "55",
+        "cp" : "1800",
+        "sp" : "1500"
+}
+{
+        "_id" : ObjectId("608bb5d4b0d6d38850066b8b"),
+        "pid" : "112",
+        "Brand" : "Sparkx",
+        "category" : "Sneaker's",
+        "size" : "8",
+        "stock" : "30",
+        "cp" : "1000",
+        "sp" : "1300"
+}
+{
+        "_id" : ObjectId("608bb5f0b0d6d38850066b8c"),
+        "pid" : "113",
+        "Brand" : "Adidas",
+        "category" : "Jogging Shoes",
+        "size" : "10",
+        "stock" : "75",
+        "cp" : "2500",
+        "sp" : "3300"
+}
+{
+        "_id" : ObjectId("608bb633b0d6d38850066b8d"),
+        "pid" : "114",
+        "Brand" : "Nike",
+        "category" : "Sport Shoes",
+        "size" : "11",
+        "stock" : "40",
+        "cp" : "2500",
+        "sp" : "3000"
+}

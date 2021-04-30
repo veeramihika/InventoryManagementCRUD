@@ -1,0 +1,19 @@
+{
+  "name": "inventoryproject",
+  "version": "1.0.0",
+  "description": "CRUD",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "VeeraMihika",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "jsdom": "^16.5.3",
+    "mongodb": "^3.6.6"
+  }
+}
